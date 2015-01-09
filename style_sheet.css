@@ -1,5 +1,5 @@
 body{
-background-color: #F2F2F2;
+background-color: #0B317B;
 margin: 0;
 padding: 0;
 }
@@ -10,45 +10,42 @@ transition: all 0.2s ease;
 margin-top: 60px;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
+width: 950px;
 height: 35px;
-background-color: #B5B5B5;
+background-color: #FFD679;
 color: #CCCCCC;
 }
 #tab{
-width: 100%;
-margin-left: auto; 
-margin-right: auto;
+width: 40%; 
 margin-top: 10px;
 display: inline-block;
 font-family: 'Open Sans', sans-serif;
 text-decoration: none;
-text-align: center;
 -webkit-font-smoothing: antialiased;
 }
 #tab a {
   padding: 10px 0;
-  color: #fff;
+  color: #FFEB99;
   font-size: 1rem;
   text-decoration: none;
   font-weight: bold;
 }
 #tab a:hover {
-  color: #7F7F7F;
+  color: #B97900;
 }
 #tab a:active {
-  border-bottom: 2px solid #7F7F7F;
+  border-bottom: 2px solid #B97900;
 }
 #main{
 background-color: #FBFBFB;
 height: 1500px;
-width: 50%;
+width: 950px;
 margin-left: auto;
-margin-right: auto;	
-background: -webkit-linear-gradient(#FBFBFB, #F2F2F2); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(#FBFBFB, #F2F2F2); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(#FBFBFB, #F2F2F2); /* For Firefox 3.6 to 15 */
-background: linear-gradient(#FBFBFB, #F2F2F2); /* Standard syntax */
+margin-right: auto;
+background: -webkit-linear-gradient(#FBFBFB, #FFEB99); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#FBFBFB, #FFEB99); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#FBFBFB, #FFEB99); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#FBFBFB, #FFEB99); /* Standard syntax */
 }
 #copyright{
 height: 20px;
@@ -56,7 +53,7 @@ margin-top: 60px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
-background-color: gray;
+background-color: #5974AA;
 color: #F2F2F2;
 line-height: 15pt;
 font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
