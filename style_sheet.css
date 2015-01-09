@@ -9,7 +9,7 @@ transition: all 0.2s ease;
 #login{
 top: 0;
 right: 1em;
-width: 4%;
+width: 100px;
 height: 25px;
 background-color: #5974AA;
 text-align: center;
