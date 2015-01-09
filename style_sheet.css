@@ -6,6 +6,31 @@ padding: 0;
 a{
 transition: all 0.2s ease;
 }
+#login{
+top: 0;
+right: 1em;
+width: 4%;
+height: 25px;
+background-color: #5974AA;
+text-align: center;
+position: fixed;
+font-family: 'Titillium Web', sans-serif;
+text-decoration: none;
+border: 1px;
+border-radius: 25px;
+}
+#login a {
+color: #F6F7F8;
+font-size: 1rem;
+text-decoration: none;
+font-weight: bold;
+}
+#login a:hover {
+color: gray;
+}
+#login a:active {
+border-bottom: 2px solid gray;
+}
 #nav{
 margin-top: 60px;
 margin-left: auto;
@@ -14,6 +39,7 @@ width: 950px;
 height: 35px;
 background-color: #5974AA;
 }
+
 #tab{
 width: 40%; 
 margin-top: 5px;
@@ -22,17 +48,17 @@ font-family: 'Titillium Web', sans-serif;
 text-decoration: none;
 }
 #tab a {
-  padding: 10px 0;
-  color: #F6F7F8;
-  font-size: 1rem;
-  text-decoration: none;
-  font-weight: bold;
+padding: 10px 0;
+color: #F6F7F8;
+font-size: 1rem;
+text-decoration: none;
+font-weight: bold;
 }
 #tab a:hover {
-  color: gray;
+color: gray;
 }
 #tab a:active {
-  border-bottom: 2px solid gray;
+border-bottom: 2px solid gray;
 }
 #main{
 background-color: #F6F7F8;
