@@ -16,11 +16,10 @@ background-color: #5974AA;
 }
 #tab{
 width: 40%; 
-margin-top: 10px;
+margin-top: 5px;
 display: inline-block;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
 text-decoration: none;
--webkit-font-smoothing: antialiased;
 }
 #tab a {
   padding: 10px 0;
