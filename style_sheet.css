@@ -1,0 +1,65 @@
+body{
+background-color: #F2F2F2;
+margin: 0;
+padding: 0;
+}
+a{
+transition: all 0.2s ease;
+}
+#nav{
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 35px;
+background-color: #B5B5B5;
+color: #CCCCCC;
+}
+#tab{
+width: 100%;
+margin-left: auto; 
+margin-right: auto;
+margin-top: 10px;
+display: inline-block;
+font-family: 'Open Sans', sans-serif;
+text-decoration: none;
+text-align: center;
+-webkit-font-smoothing: antialiased;
+}
+#tab a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+#tab a:hover {
+  color: #7F7F7F;
+}
+#tab a:active {
+  border-bottom: 2px solid #7F7F7F;
+}
+#main{
+background-color: #FBFBFB;
+height: 1500px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;	
+background: -webkit-linear-gradient(#FBFBFB, #F2F2F2); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#FBFBFB, #F2F2F2); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#FBFBFB, #F2F2F2); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#FBFBFB, #F2F2F2); /* Standard syntax */
+}
+#copyright{
+height: 20px;
+margin-top: 60px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: gray;
+color: #F2F2F2;
+line-height: 15pt;
+font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+letter-spacing: 1px;
+font-size: 10px; 
+}
