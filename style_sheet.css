@@ -18,6 +18,9 @@ font-family: 'Titillium Web', sans-serif;
 text-decoration: none;
 border: 1px;
 border-radius: 25px;
+-webkit-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+-moz-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
 }
 #login a {
 color: #F6F7F8;
