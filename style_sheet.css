@@ -107,8 +107,7 @@ font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
 letter-spacing: 1px;
 font-size: 10px; 
 }
-#small-logo
-{
+#small-logo{
 display: block;
 width:100px; 
 margin-top:-30px;
