@@ -37,94 +37,65 @@
 <!-- ......................................body starts....................................... -->   
     
       <div id="logup">
-        <div id="logup_content" style="width: 49.5%;">
-          <center> 
-            <h3 class="logup-titles"> LOG IN </h3> 
-          </center> 
+        <div id="logup_content" style="width: 49%; float: left;">
           <br>
-          <span id="subhead" style=" margin-left: 130px; margin-top: 20px">
-
-            <a href="login.html" id="subhead" style=" margin-left: 30px;">Student</a>
-            &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-            <span id="subhead" style="color: #F6F7F8;">Tutor</span>
-            <br>
-            <br>
 
             <div style="left-margin: 100px;"> 
               <center>         
-                <form method="post" action="process_members.php">
-                  <table>
-                    <tr>
-                      <td style="color: #F6F7F8;">Username:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td><input type="text" name="username" size="10"/></td>
-                    </tr>
-                    <tr>
-                      <td style="color: #F6F7F8;">Password:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td><input type="password" name="password" size="10"/></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        &nbsp
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colspan="2"><input type="submit" value="submit"/></td>
-                    </tr>
-                  </table>
+                <form class="form-4">
+                  <h1>Log In</h1>
+                  <p>
+                      <label for="login">Username or email</label>
+                      <input type="text" name="login" placeholder="Username or email" required>
+                  </p>
+                  <p>
+                      <label for="password">Password</label>
+                      <input type="password" name='password' placeholder="Password" required> 
+                  </p>
+               
+                  <p>
+                      <input type="submit" name="submit" value="Continue">
+                  </p>       
                 </form>
+
+                <a href="login.html" id="subhead">Student</a>
+                &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
+                <span id="subhead" style="color: #F6F7F8;">Tutor</span>
+
               </center>
             </div>
+
           </span>
         </div>
 
-        <div id="logup_content" style="width: 49%; border-left: 1px solid #335CAD;">  
-        <center> <h3 class="logup-titles"> SIGN UP </h3> </center> <br>
-          <span id="subhead" style="margin-left: 130px; margin-top: 20px;">
-
-            <a href="login.html" id="subhead" style=" margin-left: 30px;">Student</a>
-            &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-            <span id="subhead" style="color: #F6F7F8;">Tutor</span>
-            
-            <br>
-            <br>
-
+        <div id="logup_content" style="width: 49%; float: right;">  
+          <br>
 
             <div>
               <center>          
-                <form method="post" action="process_members.php">
-                  <table>
-                    <tr>
-                      <td style="color: #F6F7F8;">Username:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td><input type="text" name="username" size="10"/></td>
-                    </tr>
-                    <tr>
-                      <td style="color: #F6F7F8;">Password:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td><input type="password" name="password" size="10"/></td>
-                    </tr>
-                    <tr>
-                      <td style="color: #F6F7F8;">Re-Type:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td><input type="password" name="repassword" size="10"/></td>
-                    </tr>
-                      <td style="color: #F6F7F8;">Grade:</td>
-                      <td style="color: #F6F7F8;">
-                        <input type="radio" name="grade" value="10"/>9
-                        <input type="radio" name="grade" value="10"/>10
-                        <input type="radio" name="grade" value="11"/>11
-                        <input type="radio" name="grade" value="12"/>12
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        &nbsp
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colspan="2"><input type="submit" value="submit"/></td>
-                    </tr>
-                  </table>
+                <form class="form-4">
+                  <h1>Register</h1>
+                  <p>
+                      <label for="login">Username or email</label>
+                      <input type="text" name="login" placeholder="Username or email" required>
+                  </p>
+                  <p>
+                      <label for="password">Password</label>
+                      <input type="password" name='password' placeholder="Password" required> 
+                  </p>
+               
+                  <p>
+                      <input type="submit" name="submit" value="Continue">
+                  </p>       
                 </form>
+
+                <a href="login.html" id="subhead">Student</a>
+                &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
+                <span id="subhead" style="color: #F6F7F8;">Tutor</span>
+
               </center>  
             </div>
+
           </span>
         </div>  
       </div>

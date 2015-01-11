@@ -2,147 +2,241 @@
 /*background color: #F6F7F8; */
 
 body{
-background-color: #D3D8DC;
-margin: 0;
-padding: 0;
+	background-color: #D3D8DC;
+	margin: 0;
+	padding: 0;
 }
 a{
-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 #login{
-top: 0;
-right: 1em;
-width: 100px;
-height: 25px;
-background-color: #005DA3;
-text-align: center;
-position: fixed;
-font-family: 'Titillium Web', sans-serif;
-text-decoration: none;
-border: 1px;
-border-radius: 25px;
--webkit-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
--moz-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+	top: 0;
+	right: 1em;
+	width: 100px;
+	height: 25px;
+	background-color: #005DA3;
+	text-align: center;
+	position: fixed;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	border: 1px;
+	border-radius: 25px;
+	-webkit-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+	-moz-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+	box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
 }
 #login a {
-color: #F6F7F8;
-font-size: 1rem;
-text-decoration: none;
-font-weight: 400;
+	color: #F6F7F8;
+	font-size: 1rem;
+	text-decoration: none;
+	font-weight: 400;
 }
 #login a:hover {
-color: gray;
+	color: gray;
 }
 #login a:active {
-border-bottom: 2px solid gray;
+	border-bottom: 2px solid gray;
 }
 #nav{
-margin-top: 60px;
-margin-left: auto;
-margin-right: auto;
-width: 950px;
-height: 35px;
-background-color: #005DA3;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	height: 35px;
+	background-color: #005DA3;
 }
 #tab{
-margin-top: 5px;
-display: inline-block;
-font-family: 'Titillium Web', sans-serif;
-text-decoration: none;
+	margin-top: 5px;
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
 }
 #tab a{
-padding: 10px 0;
-color: #F6F7F8;
-font-size: 1rem;
-text-decoration: none;
-font-weight: 400;
+	padding: 10px 0;
+	color: #F6F7F8;
+	font-size: 1rem;
+	text-decoration: none;
+	font-weight: 400;
 }
 #tab a:hover{
-color: gray;
+	color: gray;
 }
 #tab a:active{
-border-bottom: 2px solid gray;
+	border-bottom: 2px solid gray;
 }
 #main{
-background-color: #F6F7F8;
-height: 435px;
-width: 950px;
-margin-left: auto;
-margin-right: auto;
--webkit-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
--moz-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+	background-color: #F6F7F8;
+	height: 435px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+	-moz-box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
+	box-shadow: 0px 2px 23px 4px rgba(122,117,122,1);
 }
 #logup{
-width: 100%;
-height: 400px;
-background-color: #1A2E56;
-margin-top: 0px;
+	width: 100%;
+	height: 400px;
+	background-color: #1A2E56;
+	margin-top: 0px;
 }
 #logup a{
-text-decoration: none;
+	text-decoration: none;
 }
 #logup a:hover{
-color: #F6F7F8;
+	color: #F6F7F8;
 }
 #logup a:active{
-border-bottom: 2px solid gray;
+	border-bottom: 2px solid gray;
 }
 #subhead{
-font-family: 'Titillium Web', sans-serif;
-text-decoration: none;
-color: #005DA3;
-font-size: 1.1rem;
-font-weight: 400;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: #005DA3;
+	font-size: 1.1rem;
+	font-weight: 400;
 }
 #copyright{
-height: 20px;
-margin-top: 500px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-background-color: #005DA3;
-color: #F2F2F2;
-line-height: 15pt;
-font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
-letter-spacing: 1px;
-font-size: 10px; 
+	height: 20px;
+	margin-top: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #005DA3;
+	color: #F2F2F2;
+	line-height: 15pt;
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	letter-spacing: 1px;
+	font-size: 10px; 
 }
 #small-logo{
-display: block;
-width:100px; 
-margin-top:-30px;
-margin-left: -30px;
-margin-right: auto;
-margin-bottom:-20px;
+	display: block;
+	width:100px; 
+	margin-top:-30px;
+	margin-left: -30px;
+	margin-right: auto;
+	margin-bottom:-20px;
 }
 #large-logo
 {
-margin-top:-30px;
-width:200px;
-display:block;
-margin-left: auto;
-margin-right: auto;
+	margin-top:-30px;
+	width:200px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
 #content
 {
-font-family: 'Titillium Web', sans-serif;
-color:#005DA3;
-display:block;
-margin-top:40px;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	color:#005DA3;
+	display:block;
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 .logup-titles
 {
-font-family: 'Titillium Web', sans-serif;
-color:#F6F7F8;
-margin-bottom: -5px;
+	font-family: 'Titillium Web', sans-serif;
+	color:#F6F7F8;
+	margin-bottom: -5px;
 }
 #logup_content {
-height: 350px; 
-margin-top: 0px; 
-float: left;	
+	height: 350px; 
+	margin-top: 0px;	
+}
+.form-4 {
+    width: 300px;
+    margin-top: -20px;
+    padding: 10px;
+    position: relative;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+.form-4 h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.form-4 input[type=text], .form-4 input[type=password] {
+    width: 100%;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4e3043;
+    border: 1px solid rgba(78,48,67, 0.8);
+    background: rgba(0,0,0,0.15);
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2), 
+    inset 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 13px;
+}
+.form-4 input::-webkit-input-placeholder {
+    color: rgba(37,21,26,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+ 
+.form-4 input:-moz-placeholder {
+    color: rgba(37,21,26,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+ 
+.form-4 input:-ms-input-placeholder {
+    color: rgba(37,21,26,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+.form-4 input[type=text]:hover,
+.form-4 input[type=password]:hover {
+    border-color: #333;
+}
+ 
+.form-4 input[type=text]:focus,
+.form-4 input[type=password]:focus,
+.form-4 input[type=submit]:focus {
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1), 0 0 0 3px rgba(255,255,255,0.15);
+    outline: none;
+}
+.no-boxshadow .form-4 input[type=text]:focus, .no-boxshadow .form-4 input[type=password]:focus {
+    outline: 1px solid white;
+}
+.form-4 input[type=submit] {
+    width: 100%;
+    padding: 8px 5px;
+    background: linear-gradient(rgba(99,64,86,0.5), rgba(76,49,65,0.7));    
+    border-radius: 5px;
+    border: 1px solid #4e3043;
+    box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+ 
+.form-4 input[type=submit]:hover {
+    box-shadow: inset 0 1px rgba(255,255,255,0.2), inset 0 20px 30px rgba(99,64,86,0.5);
+}
+.no-boxshadow .form-4 input[type=submit]:hover {
+    background: #594642;
+}
+.form-4 label {
+    display: none;
+    padding: 0 0 5px 2px;
+    cursor: pointer;
+}
+ 
+.form-4 label:hover ~ input {
+    border-color: #333;
+}
+ 
+.no-placeholder .form-4 label {
+    display: block;
 }
